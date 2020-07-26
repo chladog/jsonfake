@@ -1,16 +1,19 @@
 {
   "menus": [
     {
-      "main": [
-        { "slug": "dynamic", "title": "Dynamická"  },
-      ]
+      "main": [{ "slug": "dynamic", "title": "Dynamická" }]
     }
   ],
   "pages": [
-    {
-        "route": { "path": "dynamic",  "component": "DynamicPageComponent" },
-        "meta": {"title": "text", "desc": "Lorem ipsum"},
-        "content": [{"component": "JumbotronComponent", "content": { "title": "Some" }}]
-    }
+    [
+      "dynamic",
+      {
+        "route": { "path": "dynamic", "component": "DynamicPageComponent" },
+        "meta": { "title": "text", "desc": "Lorem ipsum" },
+        "content": [
+          { "component": "JumbotronComponent", "content": { "title": "Some" } }
+        ]
+      }
+    ]
   ]
 }
