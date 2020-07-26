@@ -8,7 +8,9 @@
   ],
   "pages": [
     {
-        "path": "dynamic",  "component": "DynamicPageComponent", "title": "text", "desc": "Lorem ipsum", "content": [{"component": "JumbotronComponent", "content": { "title": "Some" }}]
+        "route": { "path": "dynamic",  "component": "DynamicPageComponent" },
+        "meta": {"title": "text", "desc": "Lorem ipsum"},
+        "content": [{"component": "JumbotronComponent", "content": { "title": "Some" }}]
     }
   ]
 }
