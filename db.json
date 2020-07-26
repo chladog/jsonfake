@@ -2,9 +2,21 @@
   "menus": [
     {
       "main": [
-        { "id": 1, "slug": "kontakt", "title": "Kontakt", "component": "ContactPageComponent" },
-        { "id": 2, "body": "obchod", "title": "Obchod", "component": "CatalogPageComponent" }
+        { "slug": "kontakt", "title": "Kontakt"  },
+        { "slug": "obchod", "title": "Obchod"},
+        { "slug": "text", "title": "Obchod"}
       ]
+    }
+  ],
+  "pages": [
+    {
+        "path": "kontakt", "component": "ContactPageComponent"
+    },
+    {
+        "path": "obchod",  "component": "CatalogPageComponent" 
+    },
+    {
+        "path": "text",  "component": "DynamicPageComponent", "title": "text", "desc": "Lorem ipsum", "content": {"key": "value"}
     }
   ]
 }
