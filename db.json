@@ -2,21 +2,13 @@
   "menus": [
     {
       "main": [
-        { "slug": "kontakt", "title": "Kontakt"  },
-        { "slug": "obchod", "title": "Obchod"},
-        { "slug": "text", "title": "Obchod"}
+        { "slug": "dynamic", "title": "Dynamická"  },
       ]
     }
   ],
   "pages": [
     {
-        "path": "kontakt", "component": "ContactPageComponent"
-    },
-    {
-        "path": "obchod",  "component": "CatalogPageComponent" 
-    },
-    {
-        "path": "text",  "component": "DynamicPageComponent", "title": "text", "desc": "Lorem ipsum", "content": {"key": "value"}
+        "path": "dynamic",  "component": "DynamicPageComponent", "title": "text", "desc": "Lorem ipsum", "content": [{"component": "JumbotronComponent", "content": { "title": "Some" }}]
     }
   ]
 }
