@@ -30,10 +30,7 @@
       {
         "component": "JumbotronComponent",
         "content": {
-          "title": {
-            "type": "text",
-            "value": "Some"
-          }
+          "title": "Some"
         }
       }
     ]
