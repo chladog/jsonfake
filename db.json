@@ -25,7 +25,7 @@
     ]
   ],
   "uid": {
-    "meta": { "title": "text", "desc": "Lorem ipsum" },
+    "meta": { "title": "text", "desc": "Lorem ipsum", "uid": "xxx" },
     "content": [
       {
         "component": "JumbotronComponent",
