@@ -23,5 +23,14 @@
         }
       }
     ]
-  ]
+  ],
+  "uid": {
+    "meta": { "title": "text", "desc": "Lorem ipsum" },
+    "content": [
+      {
+        "component": "JumbotronComponent",
+        "content": { "title": "Some" }
+      }
+    ]
+  }
 }
