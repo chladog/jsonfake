@@ -30,11 +30,11 @@
       {
         "component": "JumbotronComponent",
         "content": {
-          "title": "Some"
-        },
-        "vv": {
-          "key": "title",
-          "type": "line"
+          "title": "Some",
+          "vv": {
+            "key": "title",
+            "type": "line"
+          }
         }
       }
     ]
