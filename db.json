@@ -29,22 +29,16 @@
     "content": [
       {
         "component": "JumbotronComponent",
-        "content": [
-          [
-            "title",
-            {
-              "value": "Some",
-              "type": "line"
-            }
-          ],
-          [
-            "text",
-            {
-              "value": "Some asdasdasd asd asda das das das dasda d",
-              "type": "rich"
-            }
-          ]
-        ]
+        "content": {
+          "title": {
+            "value": "Some",
+            "type": "line"
+          },
+          "text": {
+            "value": "Some asdasdasd asd asda das das das dasda d",
+            "type": "rich"
+          }
+        }
       }
     ]
   }
