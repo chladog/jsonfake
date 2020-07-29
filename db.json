@@ -12,11 +12,18 @@
           "path": "dynamic",
           "component": "DynamicPageComponent",
           "data": {
-            "meta": { "title": "text", "desc": "Lorem ipsum" },
+            "meta": { "title": "text", "desc": "Lorem ipsum", "uid": "xxx" },
             "content": [
               {
                 "component": "JumbotronComponent",
-                "content": { "title": "Some" }
+                "content": {
+                  "title": {
+                    "value": "Some"
+                  },
+                  "text": {
+                    "value": "Some asdasdasd asd asda das das das dasda d"
+                  }
+                }
               }
             ]
           }
