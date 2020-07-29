@@ -31,12 +31,10 @@
         "component": "JumbotronComponent",
         "content": {
           "title": {
-            "value": "Some",
-            "type": "line"
+            "value": "Some"
           },
           "text": {
-            "value": "Some asdasdasd asd asda das das das dasda d",
-            "type": "rich"
+            "value": "Some asdasdasd asd asda das das das dasda d"
           }
         }
       }
